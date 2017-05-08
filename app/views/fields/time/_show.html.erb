@@ -1,7 +1,7 @@
 <%#
-# Enum Show Partial
+# Time Show Partial
 
-This partial renders an enum attribute,
+This partial renders an time attribute,
 to be displayed on a resource's show page.
 
 By default, the attribute is rendered as a text tag.
@@ -9,9 +9,9 @@ By default, the attribute is rendered as a text tag.
 ## Local variables:
 
 - `field`:
-  An instance of [Administrate::Field::Enum][1].
-  A wrapper around the enum attributes pulled from the model.
+  An instance of [Administrate::Field::Time][1].
+  A wrapper around the time attributes pulled from the model.
 
 %>
 
-<%= field.to_s %>
+<%= field.data.strftime("%I:%M%p").to_s %>
