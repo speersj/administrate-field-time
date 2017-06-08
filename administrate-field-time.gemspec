@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'administrate-field-time'
-  s.version = '0.0.4'
+  s.version = '0.0.5'
   s.authors = ['Enrique Barragan']
   s.email = ['enrique@disruptiveangels.com']
   s.homepage = 'https://github.com/DisruptiveAngels/administrate-field-time'
